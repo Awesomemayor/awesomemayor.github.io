@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.google.com/specimen/Kdam+Thmor+Pro:wght@300&family=Ubuntu:wght@300&display=swap');
 html, body {
   height: 100%;
   width: 100%;
-  font-family: 'Roboto', sans-serif; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  background-color: cadetblue;
+  font-weight: bold;
+  color: white;
 }
 
 .button{
   width: 66px;
   padding: 20px;
   margin: 0 3px;
-  border: 2px solid black;
+  border: 1px orange;
   border-radius: 9px;
-  cursor: pointer;
+  cursor: auto;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .row{
@@ -22,6 +27,6 @@ html, body {
   font-size: 20px;
     margin: 0;
     padding: 10px 0px;
-    border: 2px solid black;
+    border: 4px bold orange;
     border-radius: 5px;
 }
